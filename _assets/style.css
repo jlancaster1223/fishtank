@@ -1,175 +1,359 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="/_assets/style.css" />
-<nav>
-    <div class="header__topbar">
-        <div class="container">
-            <div class="header__topbar__left">
-                <div class="contrastToggle">
-                    <input type="checkbox" id="contrastToggle">
-                    <label for="contrastToggle">High Contrast</label>
-                </div>
-                <a href="#">Product Support</a>
-            </div>
-            <div class="header__topbar__right">
-                <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <div>Search</div>
-                </div>
-                <a href="#">Contact Sales</a>
-                <a href="#">Our Story</a>
-                <a href="#">Login</a>
-            </div>
-        </div>
-    </div>
-    <header class="header__main">
-        <div class="container">
-        <div class="header__main__logo">
-            <img src="/_assets/logo.png" />
-        </div>
-        <nav class="header__main__menu">
-            <ul>
-                <li class="has-submenu">
-                    Products
-                    <div class="submenu submenu__style1">
-                        <div class="container">
-                            <div class="submenu__main">
-                                <div class="submenu__items">
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                    <div class="submenu__items__single">
-                                        <img src="/_assets/icons/fork.png">
-                                        <div>
-                                            <h3>Fishtank</h3>
-                                            <p>Lorem ipsum dolor sit amet</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="submenu__standoutimage">
-                                    <img src="/_assets/pexels-andrea-piacquadio-3801701.jpg">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="submenu__footer">
-                            <div class="container">
-                                <p>Need help getting started?</p>
-                                <a href="#" class="button button-outline">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>Solutions</li>
-                <li class="has-submenu">
-                    Sectors
-                    <div class="submenu submenu__style2">
-                        <div class="container">
-                            <div class="submenu__sectors">
-                                <div class="submenu__style2__heading">Sectors</div>
-                                <div class="submenu__sectors__wrapper">
-                                    <a href="#" class="submenu__sectors__single">
-                                        <div class="submenu__sectors__single__image">
-                                            <img src="/_assets/pexels-andrea-piacquadio-3801701.jpg">
-                                        </div>
-                                        <h3>Foodservice</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus consectetur nisl, nec pulvinar sem aliquet ac. Duis efficitur fringilla rutrum. Vivamus accumsan nisi vitae erat malesuada, eu dapibus nunc tristique. Quisque pretium ultricies augue.</p>
-                                    </a>
-                                    <a href="#" class="submenu__sectors__single">
-                                        <div class="submenu__sectors__single__image">
-                                            <img src="/_assets/pexels-andrea-piacquadio-3801701.jpg">
-                                        </div>
-                                        <h3>Foodservice</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus consectetur nisl, nec pulvinar sem aliquet ac. Duis efficitur fringilla rutrum. Vivamus accumsan nisi vitae erat malesuada, eu dapibus nunc tristique. Quisque pretium ultricies augue.</p>
-                                    </a>
-                                    <a href="#" class="submenu__sectors__single">
-                                        <div class="submenu__sectors__single__image">
-                                            <img src="/_assets/pexels-andrea-piacquadio-3801701.jpg">
-                                        </div>
-                                        <h3>Foodservice</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus consectetur nisl, nec pulvinar sem aliquet ac. Duis efficitur fringilla rutrum. Vivamus accumsan nisi vitae erat malesuada, eu dapibus nunc tristique. Quisque pretium ultricies augue.</p>
-                                    </a>
-                                    <a href="#" class="submenu__sectors__single">
-                                        <div class="submenu__sectors__single__image">
-                                            <img src="/_assets/pexels-andrea-piacquadio-3801701.jpg">
-                                        </div>
-                                        <h3>Foodservice</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus consectetur nisl, nec pulvinar sem aliquet ac. Duis efficitur fringilla rutrum. Vivamus accumsan nisi vitae erat malesuada, eu dapibus nunc tristique. Quisque pretium ultricies augue.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="submenu__links">
-                                <div class="submenu__style2__heading">By role</div>
-                                
-                                <ul>
-                                    <li>
-                                        <a href="#">Product Manager</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Head Chef</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Head of Operations</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>Resources</li>
-                <li>Pricing</li>
-            </ul>
-        </nav>
-        <div class="header__main__actions">
-            <a href="#" class="button button-primary">Call to Action 1</a>
-            <a href="#" class="button button-secondary">Call to Action 1</a>
-        </div>
-        </div>
-    </header>
-    <div class="header__usps">
-        <div class="container">
-            <span class="clearfix"></span>
-            <div class="header__usps__content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <a href="#">Read article</a>
-            </div>
-            <span class="header__usps__close" onclick="closeUSPs()">
-                <i class="fa-solid fa-xmark"></i>
-            </span>
-        </div>
-    </div>
-</nav>
+:root {
+        --nutritics-plum: #B9115B;
+        --nutritics-orange: #EC671B;
+        --nutritics-blue: #1A6AA1;
+        --off-white: #FDF4EB;
+    }
+    * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .container {
+        max-width: 1570px;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .header__topbar {
+        padding: 6px 0;
+        background: #EDEDED;
+    }
+    
+    .header__main > .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header__main__logo img {
+        width: 150px;
+    }
+    
+    
+    .header__main__menu > ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 70px;
+    }
+    .header__main__menu > ul > li {
+        padding: 35px 0;
+        border-bottom: 4px solid transparent;
+    }
+    .header__main__menu > ul > li:hover {
+        border-bottom: 4px solid #0089BF;
+    }
+    
+    .header__main__actions {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .header__usps {
+        background: var(--nutritics-plum);
+        padding: 22px;
+    
+}
+.header__usps > .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-<!-- Include jquery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="/_assets/script.js"></script>
+.header__usps__close i {
+    color: var(--off-white);
+    font-size:18px;
+}
+
+.header__usps__content {
+    text-align: center;
+    color: white;
+    font-size:18px;
+}
+.header__usps__content a {
+    color:white;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+span.header__usps__close {
+    width: fit-content;
+}
+
+.clearfix {
+    display: block;
+    width: auto;
+}
+
+.button {
+    padding: 14px;
+    display: block;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    width: max-content;
+}
+.button.button-primary {
+    background: #5B5B5B;
+}
+.button.button-secondary {
+    background: var(--nutritics-orange);
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 39px;
+    background: white;
+}
+
+.header__main {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu__style1 .submenu__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submenu__style1 .submenu__main {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.submenu__style1 .submenu__items__single {
+    gap: 38px;
+    width: calc(50% - 16px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.submenu__style1 .submenu__items__single img {
+    display: block;
+    width: 59px;
+    height: 59px;
+}
+
+.submenu__footer {
+    padding: 35px 0;
+    background: #EC671B;
+    /* display: block; */
+    width: 100%;
+}
+
+.submenu.submenu__style1 > .container {
+    flex-direction: column;
+    padding-top: 82px;
+    padding-bottom: 109px;
+}
+
+.submenu__standoutimage {
+    border-radius: 40px;
+    height: 312px;
+    width: 406px;
+}
+
+.submenu__standoutimage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.submenu__footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    /* font-size: 40px; */
+    gap: 30px;
+}
+
+.submenu__footer .container p {
+    font-size: 40px;
+}
+
+.button.button-outline {
+    border: 1px solid white;
+}
+.submenu__style2 .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.submenu__style2 .submenu__sectors {
+    flex: 2;
+    padding: 77px 0;
+    padding-right: 55px;
+    border-right: 1px solid black;
+    margin-right: 55px;
+}
+
+.submenu__style2 .submenu__links {
+    flex: 1;
+    padding: 77px 0;
+}
+
+.submenu__sectors__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+a.submenu__sectors__single {
+    width: 25%;
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+.submenu__sectors__single__image {
+    aspect-ratio: 1;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.submenu__sectors__single__image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.submenu__sectors__single p {
+    /* -webkit-line-clamp: 2; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: auto;
+}
+
+.submenu__style2__heading {
+    color: var(--nutritics-blue);
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.submenu__style2 .submenu__links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.submenu__style2 .submenu__links ul a {
+    color: var(--nutritics-orange);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+.header__topbar__left input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.header__topbar__left label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 150px;
+  height: 90px;
+  background: white;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  transform: scale(0.3);
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.header__topbar__left label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 75px;
+  height: 75px;
+  background: var(--nutritics-blue);
+  border-radius: 90px;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.header__topbar__left input:checked + label {
+  background: #666;
+}
+
+.header__topbar__left input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+.header__topbar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__topbar__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.contrastToggle {
+    height: fit-content;
+    display: block;
+}
+
+.header__topbar__right {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.search i {
+    padding: 10px;
+    border-radius: 100px;
+    background: white;
+}
+
+.header__topbar a {
+    color: black;
+    text-decoration: none;
+}
